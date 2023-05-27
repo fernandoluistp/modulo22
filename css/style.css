@@ -213,11 +213,10 @@ footer p {
   }
 }
 .destaque img {
-  width: 100%;
   height: auto;
   margin: 0rem auto;
   width: auto;
-  height: 100%;
+  min-height: 100%;
   position: absolute;
   z-index: 0;
   top: 50%;
