@@ -1,0 +1,51 @@
+.blocks {
+
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    h2 {
+        color: $color-01;
+    }
+
+    ul {
+        list-style-type: none;
+        font-size: $font-small;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    li {
+        color: $color-02;
+        margin: $space-default auto;
+        width: 30%;
+        
+        @media screen and (max-width: $tela-tablet) {
+            width: 45%;            
+        }
+        @media screen and (max-width: $tela-celular) {
+            width: 100%;            
+        }
+
+        .img-container {
+            overflow: hidden;
+            width: 100%;
+            border-radius: $border-radius-padrao;
+        }
+
+        a {
+            background-color: $color-01;
+            border-radius: $border-radius-padrao;
+            color: white;
+            display: flex;
+            font-size: $font-medium;
+            margin: $mt-02 auto $mb;
+            padding: 4px 8px;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+}

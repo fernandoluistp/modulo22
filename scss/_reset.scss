@@ -1,0 +1,86 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+div, 
+p {
+    display: block;
+}
+
+header,
+section,
+footer {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 1px solid $color-05;
+    box-shadow: $box-shadow-sutil;
+}
+
+section {
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: $max-width-padrao;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: $fonte-principal;
+    font-size: $font-small;
+    color: $color-default;
+    background: url(../images/fundo.svg) repeat;
+}
+
+p {
+    color: $color-01;
+    font-size: $font-normal;
+    margin-bottom: $mb;
+    text-align: $align;
+}
+
+h1 {
+    color: $color-01;
+    font-family: $fonte-principal;
+    font-size: $font-big;
+    margin-top: $mt-02;
+}
+
+h2 {
+    color: $color-02;
+    font-size: $font-medium;
+}
+
+h3 {
+    color: $color-01;
+    font-size: $font-normal;
+}
+
+header {
+    background-color: $bg-color;
+}
+
+footer {
+    background-color: $color-background-blocks;
+    p{
+        text-align: center;
+        color: $color-02;
+    }
+
+}

@@ -1,0 +1,21 @@
+.pizzas {
+    margin-bottom: $mb;
+    .container {
+        background-color: $color-background-blocks;
+        background-image: url('../images/fundo_bloco.svg');
+        border-radius: $border-radius-externo;
+        box-shadow: $box-shadow-padrao;
+    }
+    h2 {
+        color: $color-02;
+        font-size: $font-big;
+    }
+    li {
+        color: $color-02;
+
+        a {
+            background-color: $color-default;
+            color: $color-03;
+        }
+    }
+}

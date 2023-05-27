@@ -1,0 +1,76 @@
+.destaque {
+    background-color: $color-02;
+    padding: $space-2;
+    min-height: 70vh;
+    overflow: hidden;
+    position: relative;
+    max-width: $max-width-padrao;
+    margin: 0 auto;
+    margin-top: $space-default;
+    margin-bottom: $space-default;
+    border-radius: $border-radius-externo;
+    box-shadow: $box-shadow-padrao;
+
+    h1 {
+        font-family: $fonte-principal;
+        font-size: $font-extra-big;
+        color: $color-02;
+        margin-top: $space-extra;
+        z-index: 2;
+        position: relative;
+
+        span {
+            background: $color-01;
+            line-height: 7.8rem;
+            border-radius: 1rem;
+            padding: 0 0.5rem;
+            word-break: break-word;
+        }
+    }
+
+    h2 {
+        font-family: $fonte-principal;
+        font-size: $font-medium;
+        margin-top: $mt;
+        z-index: 2;
+        position: relative;
+
+        span {
+            background: $color-default;
+            border-radius: 0.5rem;
+            padding: 0 0.5rem;
+            color: $color-03;
+        }
+        
+    }
+    p {
+        font-size: $font-normal;
+        color: $color-01;
+        padding: 0 0.5rem;
+        z-index: 2;
+        position: relative;
+        background-color: #ffffffdd;
+        margin-top: $mt-02;
+        border-radius: $border-radius-padrao;
+        width: 40%;
+        
+        @media screen and (max-width: $tela-tablet) {
+        width: 100%;
+        }
+    
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin: $space-2 auto;
+        width: auto;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+}
